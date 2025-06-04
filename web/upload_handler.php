@@ -1,7 +1,7 @@
 <?php
 
 
-$uploadDir = __DIR__ . '/uploads/'; // 파일을 저장할 디렉토리
+$uploadDir = dirname(__FILE__) . '/uploads/'; // 파일을 저장할 디렉토리
 $uploadFile = $uploadDir . basename($_FILES['file']['name']); // 업로드될 파일의 전체 경로
 
 // uploads 디렉토리가 존재하지 않으면 생성 시도
@@ -81,8 +81,8 @@ if (isset($_FILES["file"]) && $_FILES["file"]["error"] == UPLOAD_ERR_OK) {
 <body>
     <div class="container">
         <h1 class="text-2xl font-bold mb-4 text-gray-800">업로드 결과</h1>
-        <p class="text-lg <?= $uploadOk ? 'success' : 'error' ?> mb-6">
-            <?= htmlspecialchars($message) ?>
+        <p class="text-lg <?php echo $uploadOk ? 'success' : 'error'; ?> mb-6">
+            <?php echo htmlspecialchars($message); ?>
         </p>
         <button onclick="window.location.href='upload_page.php'">파일 업로드 페이지로 돌아가기</button>
     </div>
