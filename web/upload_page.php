@@ -39,7 +39,7 @@
             <ul class="space-y-3">
                 <?php
                 // PHP 스크립트가 실행되는 디렉토리 기준으로 uploads 폴더를 찾습니다.
-                $uploadDir = __DIR__ . '/uploads';
+                $uploadDir = dirname(__FILE__) . '/uploads';
                 
                 // uploads 디렉토리가 존재하는지 확인합니다.
                 if (is_dir($uploadDir)) {

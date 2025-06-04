@@ -4,6 +4,7 @@
 ├── footer.php          // 모든 페이지에 포함될 푸터
 ├── services.php        // 서비스 페이지
 ├── projects.php        // 프로젝트 페이지
+├── blueprints.php      // 판매용 건축 도면 목록 페이지 (새로 추가)
 ├── about.php           // 회사 소개 페이지
 ├── contact_upload.php  // 통합된 문의하기 및 파일 업로드 페이지 (새로 생성)
 ├── upload_handler.php  // 실제 파일 업로드 처리 로직 (이전 대화의 취약한 upload.php 내용 그대로 사용)

@@ -62,6 +62,7 @@
                 <a href="index.php" class="hover:text-yellow-400 transition duration-300">HOME</a>
                 <a href="services.php" class="hover:text-yellow-400 transition duration-300">SERVICES</a>
                 <a href="projects.php" class="hover:text-yellow-400 transition duration-300">PROJECTS</a>
+                <a href="blueprints.php" class="hover:text-yellow-400 transition duration-300">BLUEPRINTS</a>
                 <a href="about.php" class="hover:text-yellow-400 transition duration-300">ABOUT US</a>
                 <a href="contact_upload.php" class="hover:text-yellow-400 transition duration-300">CONTACT</a>
             </nav>
